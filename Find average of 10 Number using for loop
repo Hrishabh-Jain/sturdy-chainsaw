@@ -1,0 +1,19 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+  int sum =0;
+  for(int i = 0; i<10; i++)
+  {
+      int x ;
+      cout<<"Give the value of x"<<endl;
+      cin>>x;
+     sum = sum+x;
+  }
+  cout<<"The average of your 10 values is"<< sum/10.0;
+
+
+
+    return 0;
+}
